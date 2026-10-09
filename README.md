@@ -65,3 +65,21 @@ The HTTP API provides an endpoint for generating presigned URLs for direct file 
 |---|---|---|
 | POST | `/upload` | Request a presigned URL to upload a file directly to Amazon S3 |
 
+---
+## DynamoDB Table Design
+
+**Table Name:** `Cloud-File-Flow-Terraform-Dynamo-Table`
+
+**Primary Key:** `fileId` (String)
+
+The table stores metadata for files uploaded to Amazon S3.
+
+| Attribute | Data Type | Description |
+|---|---|---|
+| `fileId` | String | Partition key; identifies the uploaded file |
+| `bucketName` | String | Name of the S3 bucket containing the file |
+| `fileName` | String | Name or object key of the uploaded file |
+| `fileSize` | Number | File size in bytes |
+| `uploadedAt` | String | Timestamp when the S3 upload event occurred |
+
+---
