@@ -56,4 +56,12 @@ flowchart TD
 * **Database:** Amazon DynamoDB
 * **API Layer:** Amazon API Gateway (HTTP API) — presigned URL generation
 * **Access Control:** AWS IAM
+---
+## API Endpoints
+
+The HTTP API provides an endpoint for generating presigned URLs for direct file uploads to Amazon S3.
+
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | `/upload` | Request a presigned URL to upload a file directly to Amazon S3 |
 
