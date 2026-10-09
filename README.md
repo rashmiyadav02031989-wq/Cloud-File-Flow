@@ -82,4 +82,18 @@ The table stores metadata for files uploaded to Amazon S3.
 | `fileSize` | Number | File size in bytes |
 | `uploadedAt` | String | Timestamp when the S3 upload event occurred |
 
+
+### Sample Item
+
+```json
+{
+  "fileId": "uploads/example.txt",
+  "bucketName": "cloud-file-flow-terraform-bucket",
+  "fileName": "uploads/example.txt",
+  "fileSize": 1024,
+  "uploadedAt": "2026-10-09T17:00:00.000Z"
+}
+```
+
+
 ---
