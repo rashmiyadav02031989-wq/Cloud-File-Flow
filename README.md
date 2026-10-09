@@ -171,7 +171,7 @@ cloud-file-flow/
 ```
 ## Security Best Practices
 
-*Implemented a serverless, event-driven architecture using Amazon S3, SQS, Lambda, and DynamoDB.
+* Implemented a serverless, event-driven architecture using Amazon S3, SQS, Lambda, and DynamoDB.
 
 * Used IAM roles and resource-specific permissions to control access to AWS services.
 
