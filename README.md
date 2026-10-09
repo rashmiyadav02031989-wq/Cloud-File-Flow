@@ -171,17 +171,23 @@ cloud-file-flow/
 ```
 ## Security Best Practices
 
-* Implemented a serverless, event-driven architecture using Amazon S3, SQS, Lambda, and DynamoDB.
+* Implemented a serverless architecture to minimize infrastructure management.
 
-* Used IAM roles and resource-specific permissions to control access to AWS services.
+* Used API Gateway to provide an API endpoint for generating S3 presigned upload URLs.
 
-* Configured Amazon S3 event notifications to trigger asynchronous processing through SQS.
+* Used presigned URLs to allow temporary, controlled access to upload files without exposing AWS credentials.
 
-* Restricted Lambda permissions to the required S3 bucket and DynamoDB table.
+* Configured CORS to allow browser requests from the frontend.
+
+* Used IAM roles and least-privilege permissions for AWS service access.
+
+* Stored file metadata in Amazon DynamoDB.
+
+* Used CloudFront to provide HTTPS delivery for the frontend.
+
+* Used Amazon SQS to decouple file uploads from asynchronous Lambda processing.
 
 * Used Amazon CloudWatch Logs to monitor Lambda execution and troubleshoot errors.
-
-* Avoided hardcoding AWS credentials in application code.
 
 ---
 
