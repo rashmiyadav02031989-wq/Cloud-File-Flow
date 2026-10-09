@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<title>Cloud File Flow</title>
+
+<link rel="stylesheet" href="style.css">
+```
+
+</head>
+
+<body>
+
+```
+<main class="page">
+
+    <section class="upload-card">
+
+        <div class="logo">
+            ☁
+        </div>
+
+        <h1>Cloud File Flow</h1>
+
+        <p class="subtitle">
+            Secure serverless file upload and processing
+        </p>
+
+        <div class="upload-area" id="uploadArea">
+
+            <div class="upload-icon">
+                ↑
+            </div>
+
+            <h2>Upload your file</h2>
+
+            <p>
+                Drag and drop your file here
+                <br>
+                or
+            </p>
+
+            <label for="fileInput" class="choose-button">
+                Choose File
+            </label>
+
+            <input
+                type="file"
+                id="fileInput"
+                hidden
+            >
+
+            <p class="file-info" id="fileInfo">
+                No file selected
+            </p>
+
+        </div>
+
+        <button
+            id="uploadButton"
+            class="upload-button"
+            disabled
+        >
+            Upload File
+        </button>
+
+        <div class="status-box" id="statusBox">
+            <span id="status">Select a file to begin.</span>
+        </div>
+
+    </section>
+
+
+    <section class="workflow">
+
+        <h2>How Cloud File Flow Works</h2>
+
+        <div class="steps">
+
+            <div class="step">
+                <div class="step-icon">1</div>
+                <h3>Upload</h3>
+                <p>
+                    Your file is uploaded to Amazon S3.
+                </p>
+            </div>
+
+            <div class="arrow">→</div>
+
+            <div class="step">
+                <div class="step-icon">2</div>
+                <h3>Queue</h3>
+                <p>
+                    S3 sends an event to Amazon SQS.
+                </p>
+            </div>
+
+            <div class="arrow">→</div>
+
+            <div class="step">
+                <div class="step-icon">3</div>
+                <h3>Process</h3>
+                <p>
+                    AWS Lambda processes the file metadata.
+                </p>
+            </div>
+
+            <div class="arrow">→</div>
+
+            <div class="step">
+                <div class="step-icon">4</div>
+                <h3>Store</h3>
+                <p>
+                    Metadata is stored in DynamoDB.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+        <p>
+            Built with Amazon S3 · Amazon SQS · AWS Lambda · Amazon DynamoDB
+        </p>
+    </footer>
+
+</main>
+
+
+<script src="script.js"></script>
+```
+
+</body>
+</html>
