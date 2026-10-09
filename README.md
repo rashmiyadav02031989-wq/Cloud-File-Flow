@@ -23,8 +23,6 @@ The project demonstrates how AWS services can work together to build a scalable 
 
 ---
 
-## Architecture
-
 ## Architecture Diagram
 
 ```mermaid
