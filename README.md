@@ -134,25 +134,18 @@ Tested the end-to-end workflow by uploading files to S3 and verifying metadata s
 
 ![Add Task](screenshots/file_selected_hello.png)
 
-### Add-Task-Dynamo-table
+### File Upload Scuccessful
 
-![Add Task DynamoDB Table](screenshots/add-task-dynamo-table.jpeg)
+![Add Task DynamoDB Table](screenshots/uploaded.jpeg)
 
-### Mark-Task-Completed
+### S3-Bucket-After-Upload
 
-![Mark Task Completed](screenshots/mark-task-completed.png)
+![Mark Task Completed](screenshots/s3_bucket_after_upload.png)
 
-### Mark-Task-Completed-Dynamo-Table
+### File-Upload-Completed-Dynamo-Table
 
-![Mark Task Completed Dynamo Table](screenshots/mark-task-completed-dynamo-table.jpeg)
+![Mark Task Completed Dynamo Table](screenshots/dynamo-table-uploaded.jpeg)
 
-### Delete-Task
-
-![Delete Task](screenshots/delete-task.png)
-
-### Delete-Task-Dynamo-Table
-
-![Delete Task DynamoDB Table](screenshots/delete-task-dynamo-table.jpeg)
 
 
 ---
