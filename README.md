@@ -140,7 +140,7 @@ Tested the end-to-end workflow by uploading files to S3 and verifying metadata s
 
 ### S3-Bucket-After-Upload
 
-![Mark Task Completed](screenshots/s3_bucket_after_upload.png)
+![Mark Task Completed](screenshots/s3_bucket.png)
 
 ### File-Upload-Completed-Dynamo-Table
 
