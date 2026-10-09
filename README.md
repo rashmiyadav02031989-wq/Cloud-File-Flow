@@ -150,3 +150,21 @@ Tested the end-to-end workflow by uploading files to S3 and verifying metadata s
 
 ---
 
+## Repository Structure
+
+```text
+cloud-file-flow/
+├── lambda/
+│   └── cloud-file-flow-lambda.py
+├── screenshots/
+│   └── homepage.png
+│   └── file_selected_hello.png
+│   └── uploaded.png
+│   └── s3_bucket.png
+│   └── dynamo-table-uploaded.png
+├── README.md
+│── index.html
+```
+
+---
+
