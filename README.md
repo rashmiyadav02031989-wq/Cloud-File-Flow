@@ -10,6 +10,10 @@ Amazon CloudFront provides secure HTTPS delivery for the frontend, while CORS is
 This project demonstrates event-driven architecture, secure file uploads, asynchronous processing, and integration of multiple AWS services into a scalable cloud solution.
 
 ---
+## Live Demo
+
+**Project Homepage:** [Cloud File Flow](https://d2h84cs6v4xzdl.cloudfront.net)
+---
 
 ## Features
 
