@@ -136,7 +136,7 @@ Tested the end-to-end workflow by uploading files to S3 and verifying metadata s
 
 ### File Upload Scuccessful
 
-![Add Task DynamoDB Table](screenshots/uploaded.jpeg)
+![Add Task DynamoDB Table](screenshots/uploaded.png)
 
 ### S3-Bucket-After-Upload
 
@@ -144,7 +144,7 @@ Tested the end-to-end workflow by uploading files to S3 and verifying metadata s
 
 ### File-Upload-Completed-Dynamo-Table
 
-![Mark Task Completed Dynamo Table](screenshots/dynamo-table-uploaded.jpeg)
+![Mark Task Completed Dynamo Table](screenshots/dynamo-table-uploaded.png)
 
 
 
