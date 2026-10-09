@@ -124,3 +124,36 @@ Configured IAM permissions to allow the Lambda function to access the required A
 Tested the end-to-end workflow by uploading files to S3 and verifying metadata storage in DynamoDB.
 
 ---
+## Screenshots
+
+### Website Homepage
+
+![Website Homepage](screenshots/website-homepage.png)
+
+### Add-Task
+
+![Add Task](screenshots/add-task.png)
+
+### Add-Task-Dynamo-table
+
+![Add Task DynamoDB Table](screenshots/add-task-dynamo-table.jpeg)
+
+### Mark-Task-Completed
+
+![Mark Task Completed](screenshots/mark-task-completed.png)
+
+### Mark-Task-Completed-Dynamo-Table
+
+![Mark Task Completed Dynamo Table](screenshots/mark-task-completed-dynamo-table.jpeg)
+
+### Delete-Task
+
+![Delete Task](screenshots/delete-task.png)
+
+### Delete-Task-Dynamo-Table
+
+![Delete Task DynamoDB Table](screenshots/delete-task-dynamo-table.jpeg)
+
+
+---
+
