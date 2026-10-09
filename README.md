@@ -128,11 +128,11 @@ Tested the end-to-end workflow by uploading files to S3 and verifying metadata s
 
 ### Website Homepage
 
-![Website Homepage](screenshots/website-homepage.png)
+![Website Homepage](screenshots/homepage.png)
 
-### Add-Task
+### Upload-File
 
-![Add Task](screenshots/add-task.png)
+![Add Task](screenshots/file_selected_hello.png)
 
 ### Add-Task-Dynamo-table
 
