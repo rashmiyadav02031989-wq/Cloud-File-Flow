@@ -46,6 +46,7 @@ flowchart TD
     style G fill:#FCE8D5,stroke:#C77724,color:#111
     style H fill:#DDF4E4,stroke:#27834A,color:#111
 ```
+---
 ## Tech Stack
 
 * **Frontend:** HTML, CSS, JavaScript
