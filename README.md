@@ -162,11 +162,12 @@ cloud-file-flow/
 │   └── uploaded.png
 │   └── s3_bucket.png
 │   └── dynamo-table-uploaded.png
-├── README.md
-│── website/
+|__ website/
 │   └── index.html
 │   └── script.js
 │   └── style.css
+├── README.md
+
 ```
 
 ---
