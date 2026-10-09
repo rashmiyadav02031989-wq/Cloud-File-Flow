@@ -97,3 +97,30 @@ The table stores metadata for files uploaded to Amazon S3.
 
 
 ---
+## Implementation Steps
+
+**Step 1:**  
+Created an Amazon S3 bucket to store uploaded files.
+
+**Step 2:**  
+Configured an Amazon SQS queue to receive file-upload event notifications.
+
+**Step 3:**  
+Developed an AWS Lambda function to process messages from SQS.
+
+**Step 4:**  
+Configured Amazon S3 event notifications to send object-created events to SQS.
+
+**Step 5:**  
+Implemented Lambda logic to extract file metadata, including the file name, bucket name, file size, and upload timestamp.
+
+**Step 6:**  
+Created an Amazon DynamoDB table to store file metadata.
+
+**Step 7:**  
+Configured IAM permissions to allow the Lambda function to access the required AWS resources.
+
+**Step 8:**  
+Tested the end-to-end workflow by uploading files to S3 and verifying metadata storage in DynamoDB.
+
+---
