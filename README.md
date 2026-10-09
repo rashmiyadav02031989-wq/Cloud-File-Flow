@@ -169,6 +169,20 @@ cloud-file-flow/
 ├── README.md
 
 ```
+## Security Best Practices
 
+*Implemented a serverless, event-driven architecture using Amazon S3, SQS, Lambda, and DynamoDB.
+
+* Used IAM roles and resource-specific permissions to control access to AWS services.
+
+* Configured Amazon S3 event notifications to trigger asynchronous processing through SQS.
+
+* Restricted Lambda permissions to the required S3 bucket and DynamoDB table.
+
+* Used Amazon CloudWatch Logs to monitor Lambda execution and troubleshoot errors.
+
+* Avoided hardcoding AWS credentials in application code.
+
+---
 ---
 
