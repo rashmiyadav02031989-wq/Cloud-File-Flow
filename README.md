@@ -74,7 +74,7 @@ The HTTP API provides an endpoint for generating presigned URLs for direct file 
 ---
 ## DynamoDB Table Design
 
-**Table Name:** `Cloud-File-Flow-Terraform-Dynamo-Table`
+**Table Name:** `Cloud-File-Flow-Dynamo-Table`
 
 **Primary Key:** `fileId` (String)
 
