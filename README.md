@@ -69,7 +69,7 @@ The HTTP API provides an endpoint for generating presigned URLs for direct file 
 
 | Method | Endpoint | Description |
 |---|---|---|
-| POST | `/upload` | Request a presigned URL to upload a file directly to Amazon S3 |
+| POST | `/upload-url` | Request a presigned URL to upload a file directly to Amazon S3 |
 
 ---
 ## DynamoDB Table Design
