@@ -94,7 +94,7 @@ The table stores metadata for files uploaded to Amazon S3.
 ```json
 {
   "fileId": "uploads/example.txt",
-  "bucketName": "cloud-file-flow-terraform-bucket",
+  "bucketName": "cloud-file-flow-bucket",
   "fileName": "uploads/example.txt",
   "fileSize": 1024,
   "uploadedAt": "2026-10-09T17:00:00.000Z"
